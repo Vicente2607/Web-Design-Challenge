@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarea</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Lattitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Tarea.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="plots.html">Plots</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparacion.html">Comparación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Datos.html">Datos</a>
+        </li>
+      </ul>
+      
+    </div>
+</nav>
+
+
+<div class="yo">
+    <h1 class="display-3">Summary: Lattitude vs Temperaure </h1>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="Tempvslat.jpg" 
+                width="432" 
+                height="288"
+            alt="Vicente !"
+             />
+        </div>
+        <div class="col-md-4">
+            <p>El ejercicio consistió en generar una lista 1500 georeferencias que estivueran entre los +-90 grados de latitud. Esta está 1500 se buscaron una a una las ciudad más cercana, con lo que se obtuvieron 650 ciudades, con sus georeferencias, usan la aplicación citipy, Posteriormente se utilizo la api de open weather map para buscar esas 650 ciudades y obtener datos de temperatura, nubosidad, humedad y velocidad del viento.</p>
+            <p>Después de integrar una sóla base de datos, pasamo a mapear la latidus versus la Temperatura, Humedad, Nubosidad y Viento. Hicimos una sepracaión de la base en noter y sur y graficamos lo mismo, pero sacamos ahora la correlación lineal de cada grupo de datos.  </p>
+        </div>
+    </div>
+
+    <br>
+    <h1 class="display-4">Visualizations </h1>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="humedadvslat.jpg" 
+                width="432" 
+                height="288"
+            alt="Vicente !"
+             />
+        </div>
+        <div class="col-md-4">
+          <img src="nubosidadvslat.jpg" 
+              width="432" 
+              height="288"
+          alt="Vicente !"
+           />
+      </div>
+      <div class="col-md-4">
+        <img src="vientovslat.jpg" 
+            width="432" 
+            height="288"
+        alt="Vicente !"
+         />
+    </div>
+
+
+
+</div>
+
+
+
+  
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

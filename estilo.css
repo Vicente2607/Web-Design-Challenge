@@ -1,0 +1,59 @@
+.jumbotron  {
+    padding: 1rem 1rem;
+}
+
+.yo  {
+    height: 90%;
+    width: 100%;
+    display: inline;
+    background-color: white
+
+}
+
+body {
+    background-color:#E5E4E4;
+}
+
+.display-3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(42, 161, 163);
+
+  }
+
+p {
+    justify-self: auto;
+}
+
+.display-4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(42, 161, 163);
+
+  }
+
+  .display-5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(42, 161, 163);
+
+  }
+ 
+  .display-6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(42, 161, 163);
+
+  }
+
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
